@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Will Pleasant-Ryan"]
   s.email       = 'krelian18@gmail.com'
   s.files       = ["lib/autopsy.rb"]
-  s.homepage    = 'http://rubygems.org/gems/autopsy'
+  s.homepage    = 'https://github.com/willryan/autopsy'
   s.license     = 'MIT'
 end
