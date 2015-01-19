@@ -7,7 +7,7 @@ class Autopsy
     attr_accessor :artifacts_path
 
     def perform(capybara_page, test_base, exception)
-      file_base = "#{Autopsy.artifacts_path}/#{test_base}"
+      file_base = "#{File.expand_path(Autopsy.artifacts_path)}/#{test_base}"
       if exception != nil
         capybara_page.save_screenshot "#{file_base}.png"
         capybara_page.save_page "#{file_base}.html"
