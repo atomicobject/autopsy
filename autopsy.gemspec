@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'autopsy'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        = '2015-01-19'
   s.summary     = "Emit helpful artifacts for failed Capybara (Webkit) feature tests"
   s.description = "See error messages, screenshots, current HTML, and current Javascript console messages on feature test failures."
