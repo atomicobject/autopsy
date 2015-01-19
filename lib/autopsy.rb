@@ -16,7 +16,7 @@ class Autopsy
         File.open("#{file_base}_error.log", 'w') do |f|
           f.write exception.message
           f.write "\n"
-          exception.backtrace.each do |l|
+          (exception.backtrace || []).each do |l|
             f.write l
             f.write "\n"
           end
