@@ -1,7 +1,7 @@
 require 'capybara/cucumber'
 require_relative '../autopsy'
 
-Autopsy.artifacts_path = "./feature/artifacts"
+Autopsy.artifacts_path = "./features/artifacts"
 
 After do |scenario|
   if scenario.failed?
