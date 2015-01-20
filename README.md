@@ -19,4 +19,4 @@ Usage:
 
 TODO
 - auto-remove old artifacts at start of test suite
-
+- explicit tags for certain options (e.g. screenshots)
