@@ -1,5 +1,3 @@
-require 'rspec'
-require 'capybara/rspec'
 require 'awesome_print'
 
 class Autopsy

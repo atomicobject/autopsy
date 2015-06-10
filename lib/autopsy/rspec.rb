@@ -1,4 +1,4 @@
-require 'rspec'
+require 'rspec/core'
 require 'capybara/rspec'
 require_relative '../autopsy'
 
