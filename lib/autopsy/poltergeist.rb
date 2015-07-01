@@ -1,8 +1,8 @@
 class AutopsyPoltergeist
   class << self
-    def init(options = {})
+    def init(name=:poltergeist, options = {})
       @log = StringIO.new
-      Capybara.register_driver :poltergeist do |app|
+      Capybara.register_driver name do |app|
         Capybara::Poltergeist::Driver.new(app, options.merge(logger: @log))
       end
     end
